@@ -1,6 +1,0 @@
-SECRET_KEY = 'o4a31^5f73w)6fpqmg1xqwp^xvdbgc)s2ys&l4_dl8218f^4ij'
-NAME = 'blog'
-USER = 'bloguser'
-PASSWORD = 'qwerty'
-HOST = 'localhost'
-PORT = ''
