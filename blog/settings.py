@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
-import os
+import os, sys
 from . local_settings import *
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
@@ -24,8 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-# DEBUG = (sys.argv[1] == 'runserver')
+DEBUG = (sys.argv[1] == 'runserver')
 
 ALLOWED_HOSTS = ['*']
 
